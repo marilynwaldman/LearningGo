@@ -20,6 +20,8 @@ func main() {
 	fib := src.MemorizedFib;
 	fmt.Printf("Fib: %w\n", fib(8))
 	greet("Alice")
+	src.FibSimple(5)
+	fmt.Printf("Fib: %w\n", src.FibSimple(8))
 
 
 }
